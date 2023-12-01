@@ -7,6 +7,10 @@
     font-family: Montserrat, 'Helvetica Neue', sans-serif;;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* ? util */
 
 .flex{
@@ -84,7 +88,7 @@
 /* video box */
 
 .box-frame{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .kcla-box{
@@ -99,4 +103,12 @@
 
 .tag{
     padding-top: 20px;
+}
+
+.info-box{
+    margin-bottom: 40px;
+}
+
+li{
+    margin: 20px auto;
 }
