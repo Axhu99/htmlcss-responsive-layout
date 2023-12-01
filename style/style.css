@@ -19,10 +19,23 @@
     background-color: #F6F5F3;
 }
 
+.bgc-white{
+    background-color: #fff;
+}
+
+.bgc-kcal{
+    background-color: #F6F5F9;
+}
+
 /* ! container */
 
 .container{
     max-width: 600px;
+    margin: 0 auto;
+}
+
+.box-description.container{
+    max-width: 525px;
     margin: 0 auto;
 }
 
@@ -66,4 +79,24 @@
     font-size: 30px;
     font-weight: 800;
     text-transform: capitalize;
+}
+
+/* video box */
+
+.box-frame{
+    margin-bottom: 20px;
+}
+
+.kcla-box{
+    padding: 20px;
+}
+
+.kcla{
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.tag{
+    padding-top: 20px;
 }
