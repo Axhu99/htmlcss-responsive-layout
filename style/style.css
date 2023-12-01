@@ -191,3 +191,39 @@ img{
 .ul-footer a{
     color: #fff;
 }
+
+
+@media screen and (min-width: 768px){
+    .nav-bar{
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+
+    .container{
+        max-width: 700px;
+    }
+
+    .ghost{
+        display: inline-block;
+    }
+    
+
+    .info-list li{
+        flex-basis: calc(100% / 3);
+    }
+    
+    .add{
+        display: block;
+    }
+
+    .img-recipe{
+        width: 40%;
+        margin: auto 10px auto 0;
+        float: left;
+    }
+
+    .ul-footer li{
+        flex-basis: 20%;
+    }
+}
+    
