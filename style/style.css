@@ -11,6 +11,10 @@ ul{
     list-style-type: none;
 }
 
+img{
+    width: 100%;
+}
+
 /* ? util */
 
 .flex{
@@ -31,6 +35,10 @@ ul{
     background-color: #F6F5F9;
 }
 
+.bgc-footer{
+    background-color: #7C69A4;
+}
+
 /* ! container */
 
 .container{
@@ -38,9 +46,10 @@ ul{
     margin: 0 auto;
 }
 
-.box-description.container{
-    max-width: 525px;
-    margin: 0 auto;
+/* ! margin */
+
+.margin-b-20{
+    margin-bottom: 20px;
 }
 
 /* ? Generics */
@@ -87,8 +96,8 @@ ul{
 
 /* video box */
 
-.box-frame{
-    margin-bottom: 40px;
+.box-description{
+    padding: 40px;
 }
 
 .kcla-box{
@@ -105,10 +114,23 @@ ul{
     padding-top: 20px;
 }
 
-.info-box{
-    margin-bottom: 40px;
+.info-list li{
+    margin: 20px auto;
 }
 
-li{
+/* recipe */
+
+.recipe h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.img-recipe{
+    width: 70%;
     margin: 20px auto;
+}
+
+.border-bot{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
 }
