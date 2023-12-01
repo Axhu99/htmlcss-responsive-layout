@@ -219,11 +219,33 @@ img{
     .img-recipe{
         width: 40%;
         margin: auto 10px auto 0;
-        float: left;
+        float: left;  /* aggingere il tappo per non andare sotto nel footer */
     }
 
     .ul-footer li{
         flex-basis: 20%;
     }
 }
+
+@media screen and (min-width: 992px){
+
+    .container{
+        max-width: 1140px;
+    }
+
+    .video-box{
+        display: flex;
+    }
+
+    .box-frame{
+        flex-basis: 70%;
+    }
     
+    .box-description{
+        flex-basis: 30%;
+    }
+
+    .info-list li{
+        flex-basis: 100%;
+    }
+}
