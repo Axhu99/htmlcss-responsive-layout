@@ -93,6 +93,10 @@ img{
     text-transform: uppercase;
 }
 
+.ghost{
+    display: none;
+}
+
 .name-plate{
     color: #4E3969;
     font-size: 30px;
@@ -120,7 +124,31 @@ img{
     padding-top: 20px;
 }
 
+.info-list{
+    flex-wrap: wrap;
+}
+
 .info-list li{
+    margin: 20px auto;
+    flex-basis: 100%;
+}
+
+/* sociale-network */
+
+.ul-social{
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-social li{
+    flex-basis: 20%;
+    text-align: center;
+}
+
+/* add */
+
+.add{
+    display: none;
     margin: 20px auto;
 }
 
