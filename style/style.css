@@ -4,20 +4,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;;
 }
 
 /* ? util */
 
 .flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
+}
+
+/* ! background*/
+
+.bgc-main{
+    background-color: #F6F5F3;
+}
+
+/* ! container */
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 /* ? Generics */
 
 /* ! header */
+
+.nav-bar{
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
 
 .title-nav{
     color: #FF9614;
@@ -25,4 +42,28 @@
     font-family: 'Nerko One', cursive;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+/* ! main */
+
+/* main-title */
+
+.main-title{
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type{
+    color: grey;
+    flex-basis: 100%;
+    text-transform: uppercase;
+}
+
+.name-plate{
+    color: #4E3969;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
 }
